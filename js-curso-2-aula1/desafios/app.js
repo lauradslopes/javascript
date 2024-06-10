@@ -15,8 +15,10 @@ function cidade() {
 }
 
 function soma() {
-    let valor1 = prompt('digite um numero inteiro:');
-    let valor2 = prompt('Digite o segundo número:');
-    let soma = valor1+valor2;
-    alert(`soma dos valores igual a ${soma}`);
+    var valor1 = parseInt(prompt('digite um numero inteiro:'));
+    var valor2 = parseInt(prompt('Digite o segundo número:'));
+    
+    let soma;
+    soma = valor1 + valor2;
+    alert('soma dos valores igual a '+soma);
 }
